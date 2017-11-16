@@ -24,6 +24,7 @@ namespace Launcher
         {
             Counter = Counter + 1;
             lblCount.Text = Counter.ToString();
+            MessageBox.Show(Counter.ToString());
         }
     }
 }
